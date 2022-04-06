@@ -1,0 +1,158 @@
+.mainAboutCointainer{
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f5ff;
+
+    .colorLine{
+        height: 100%;
+        width: 100%;
+        background-color:#a6d4ff83;
+        margin-top: 200px;
+        padding: 130px 0;
+        position: relative;
+        .usImg{
+            position: absolute;
+            bottom: 40%;
+            right: 20%;
+            margin-left: 230px;
+            img{
+                border-radius: 8px;
+            }
+        }
+        .usDetail{
+            width: 50%;
+
+            // padding: 0 170px;
+            position: absolute;
+            top: 80%;
+            .usDetailLeft{
+                .usDetailLeftHead{
+                    font-size: 90px;
+                    line-height: 92px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    color: #50658e;
+                }
+                
+            }
+        }
+    }
+    .bottomDetail{
+        padding: 40px 0px;
+        .usDetailLeftDes{
+            padding: 30px;
+            div{
+                font-size: 16px;
+                line-height: 20px;
+                margin: 12px 0;
+                color: #535353;
+                // text-align: center;
+            }
+        }
+        .usDetailRightDes{
+            padding: 30px;
+            .rightStat{
+                .staticBox{
+                    padding: 30px 20px;
+                    background-color: rgba(109, 113, 131, 0.219);
+                    border-radius: 8px;
+                    margin: 10px;
+                    .staticBoxHead{
+                        font-size: 76px;
+                        line-height: 86px;
+                        color: #50658e;
+
+                    }
+                    .staticBoxDes{
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: rgba(0, 0, 0, 0.664);
+                    }
+                }   
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .mainAboutCointainer{
+        // display: flex;
+        // align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #f0f5ff;
+    
+        .colorLine{
+            height: 100%;
+            width: 100%;
+            background-color:#a6d4ff83;
+            margin-top: 200px;
+            padding: 130px 0;
+            position: relative;
+            .usImg{
+                position: absolute;
+                bottom: 40%;
+                right: 20%;
+                margin-left: 230px;
+                img{
+                    border-radius: 8px;
+                }
+            }
+            .usDetail{
+                width: 50%;
+    
+                // padding: 0 170px;
+                position: absolute;
+                top: 80%;
+                .usDetailLeft{
+                    .usDetailLeftHead{
+                        font-size: 90px;
+                        line-height: 92px;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-bottom: 20px;
+                        color: #50658e;
+                    }
+                    
+                }
+            }
+        }
+        .bottomDetail{
+            padding: 40px 0px;
+            .usDetailLeftDes{
+                padding: 30px;
+                div{
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin: 12px 0;
+                    color: #535353;
+                    // text-align: center;
+                }
+            }
+            .usDetailRightDes{
+                padding: 30px;
+                .rightStat{
+                    .staticBox{
+                        padding: 30px 20px;
+                        background-color: rgba(109, 113, 131, 0.219);
+                        border-radius: 8px;
+                        margin: 10px;
+                        .staticBoxHead{
+                            font-size: 76px;
+                            line-height: 86px;
+                            color: #50658e;
+    
+                        }
+                        .staticBoxDes{
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: rgba(0, 0, 0, 0.664);
+                        }
+                    }   
+                }
+            }
+        }
+    }
+}

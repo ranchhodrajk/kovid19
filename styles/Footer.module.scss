@@ -1,0 +1,102 @@
+.mainFooter{
+    position: relative;
+    background-color:  #0B3C5D;
+    padding: 60px 0;
+    .upperFooter{
+        padding-bottom: 60px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+        
+        .footerDes{
+            color: rgb(197, 218, 240);
+            margin: 20px 0;
+            padding-right: 80px;
+            .footerDesdown{
+                padding-top: 4px;
+            }
+        }
+        .footerSocIconContainer{
+                .footerSocIcon{
+                    background-color: rgba(255, 255, 255, 0.226);
+                    color: snow;
+                    border-radius: 50%;
+                    padding: 8px;
+                    font-size: 22px;
+                    margin-right: 20px; 
+                    &:hover{
+                        opacity: 0.8;
+                        cursor: pointer;
+                    }
+                }
+        }
+        .useLink{
+            display: flex;
+            flex-direction: column;
+            padding-top: 4px;
+            .footerColHead{
+                color: White;
+                font-weight: bold;
+            }
+            
+            a{
+                color: rgb(197, 218, 240);
+                padding: 4px 0;
+                &:hover{
+                    color: rgb(0, 153, 255);
+                }
+            }
+        }
+    }
+    .lowerFooter{
+        padding: 20px 0;
+        color: rgb(197, 218, 240);
+        .lowerFooterCopy{
+            display: flex;
+            justify-content: space-between;
+
+            a{
+                color: rgb(197, 218, 240);
+                &:hover{
+                    color: rgb(0, 153, 255);
+                }
+            }
+        }
+        .lowerFooterDes{
+            font-size: 12px;
+            padding: 10px 350px 10px 0;
+        }
+    }
+}
+.copyText{
+    display: flex;
+    justify-content: center;
+}
+.ant-form {
+    display: none !important;
+  }
+
+@media screen and (max-width: 576px) {
+    .mainFooter{
+        .upperFooter{
+            .footerDes{
+                padding-right: 0px;
+                .footerDesdown{
+                    padding-top: 4px;
+                }
+            }
+            .footerSocIconContainer{
+                margin: 26px 0px;
+                // display: flex;
+                // justify-content: center;
+            }
+            
+        }
+        .lowerFooter{
+            padding: 20px 0 0 0;
+            
+            .lowerFooterDes{
+
+                padding: 20px 0px 0px 0;
+            }
+        }
+    }
+}

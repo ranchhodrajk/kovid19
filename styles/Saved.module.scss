@@ -1,0 +1,81 @@
+.mainSavedContainer {
+  .dashboardMarky {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1278f536;
+    marquee {
+      font-size: 16px;
+      color: #1872df;
+      .markSub {
+        display: flex;
+        div {
+          margin: 0 26px;
+        }
+      }
+    }
+  }
+  .countryDetial {
+    padding: 50px 0;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+  }
+  .saveRow {
+    margin-bottom: 50px;
+    .countryDetialFlag {
+      padding: 0 0 20px 0;
+      font-size: 46px;
+      line-height: 46px;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        color: #50658e;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .countryFlagRemove {
+        button {
+          background-color: transparent;
+          border: 1px solid #50658e;
+          color: #50658e;
+          font-size: 16px;
+          line-height: 20px;
+          padding: 4px 8px;
+          border-radius: 8px;
+          margin-right: 10px;
+
+          &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+            border: 1px solid #369ff8;
+            color: #369ff8;
+          }
+          // height: 40px;
+        }
+      }
+    }
+  }
+  .saveCol {
+    padding: 46px 30px;
+    background-color: rgba(126, 126, 126, 0.288);
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mainSavedContainer {
+    .saveRow {
+      .countryDetialFlag {
+        font-size: 36px;
+        line-height: 36px;
+        flex-direction: column;
+      }
+    }
+  }
+}

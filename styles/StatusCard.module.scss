@@ -1,0 +1,64 @@
+.mainContainerStatus {
+  // height: 100%;
+  // width: 100%;
+  // background-image: url('/public/Assets/coronaCardBg.jpg');
+  // background-color: white;
+//   background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+  display: flex;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 98px 20px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  .ProgressBox {
+    position: absolute; 
+    top: 45%;
+    right: 68%;
+    .Progress {
+      width: 160px;
+      transform: rotate(270deg);
+    }
+  }
+  .ProgressDetail {
+    position: absolute;
+    top: 14%;
+    left: 16%;
+    .ProgressDetailHead {
+      color:#50658e;
+      font-weight: bold;
+      font-size: 22px;
+    }
+    .ProgressDetailCount {
+        padding-top: 18px;
+        
+        .ProgressDetailLabel{
+            color: rgba(3, 3, 3, 0.589);
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .ProgressDetailNum{
+            color: #4a91ff;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 24px;
+        }
+    }
+    .ProgressDetailNew {
+        padding-top: 6px;
+      .ProgressDetailLabel{
+        color: rgba(3, 3, 3, 0.589);
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .ProgressDetailNum{
+        color: #4a91ff;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    }
+  }
+}

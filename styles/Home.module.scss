@@ -1,0 +1,679 @@
+.mainContainerHome {
+  .topContainer {
+    min-height: 100vh;
+    .upperMainRow {
+      padding: 36px 0;
+      .upperLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .upperLeftHead {
+          display: flex;
+          .upperLeftHeadCorona {
+            font-size: 84px;
+            line-height: 84px;
+            font-weight: bolder;
+            color: #50658e;
+          }
+          .upperLeftHeadCoronaRight {
+            padding: 8px 0;
+            .upperLeftHeadCoronaRightTop {
+              color: #ef6068;
+              font-weight: bolder;
+              font-size: 28px;
+              line-height: 28px;
+            }
+            .upperLeftHeadCoronaRightBottom {
+              font-weight: bold;
+              font-size: 40px;
+              line-height: 40px;
+              color: #50658e;
+            }
+          }
+        }
+        .upperLeftDes {
+          padding: 16px 0;
+          font-size: 16px;
+          color: rgb(83, 83, 83);
+        }
+        .upperLeftBtn {
+          padding: 10px 0;
+        }
+      }
+      .mainRightImg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .chartContainer {
+    background-color: rgb(240, 245, 255);
+    padding: 100px 0;
+    text-align: center;
+    .spredContainerHead {
+      font-size: 18px;
+      line-height: 18px;
+      color: #2a81ea;
+      padding: 8px 0;
+    }
+    .spredContainerBig {
+      font-size: 40px;
+      line-height: 52px;
+      font-weight: bolder;
+      color: #50658e;
+    }
+    .chartBoxContainer {
+      padding: 70px 0 10px 0;
+      .chartBox {
+        padding: 0 20px;
+      }
+      .chartSideDes {
+        padding: 0 20px;
+        text-align: justify;
+        font-size: 16px;
+        color: rgb(83, 83, 83);
+        .chartSideDesBox {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .spredContainer {
+    text-align: center;
+    padding: 100px 0;
+
+    .spredContainerHead {
+      font-size: 18px;
+      line-height: 18px;
+      color: #2a81ea;
+      padding: 8px 0;
+    }
+    .spredContainerBig {
+      font-size: 40px;
+      line-height: 52px;
+      font-weight: bolder;
+      color: #50658e;
+    }
+    .spredContainerDes {
+      padding: 8px 180px;
+      font-size: 16px;
+      color: rgb(80, 80, 80);
+    }
+    .spredContainerCard {
+      padding: 70px 0 10px 0;
+      .spredCard {
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        img {
+          border-bottom: 5px solid #9cc2f7;
+        }
+        .spredCradDetail {
+          padding: 0px !important;
+          .spredCradDetailHead {
+            padding-bottom: 14px;
+            text-align: start;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: bolder;
+            color: #2a81ea;
+          }
+          .spredCradDetailDes {
+            text-align: start;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+      .spredBtnContainer {
+        padding-top: 80px;
+        width: 280px;
+        .spredBtn {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .symptemsContainer {
+    text-align: center;
+    padding: 100px 0;
+    .spredContainerHead {
+      font-size: 18px;
+      line-height: 18px;
+      color: #2a81ea;
+      padding: 8px 0;
+    }
+    .spredContainerBig {
+      font-size: 40px;
+      line-height: 52px;
+      font-weight: bolder;
+      color: #50658e;
+    }
+    .spredContainerDes {
+      padding: 8px 180px;
+      font-size: 16px;
+      color: rgb(80, 80, 80);
+    }
+    .spredContainerCard {
+      padding: 120px 0 30px 0;
+      .spredCard {
+        padding: 20px 0;
+        position: relative;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        min-height: 246px;
+        .symptomCardImg {
+          position: absolute;
+          height: 90px;
+          width: 90px;
+          bottom: 83%;
+          left: 64%;
+          border-radius: 50%;
+        }
+
+        .spredCradDetail {
+          padding: 0px !important;
+          .spredCradDetailHead {
+            padding-bottom: 14px;
+            text-align: start;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: bolder;
+            color: #2a81ea;
+          }
+          .spredCradDetailDes {
+            text-align: start;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+
+      .askQueSymptemsContainer {
+        padding-top: 100px;
+        .askQueSymptemsIcon {
+          .infoIcon {
+            display: flex;
+            align-items: center;
+            font-size: 50px;
+            color: rgb(122, 175, 255);
+          }
+        }
+        .askQueSymptemsDes {
+          font-style: italic;
+          color: rgb(80, 80, 80);
+          font-size: 16px;
+          text-align: start;
+          padding-right: 60px;
+        }
+        .spredBtnContainer {
+          width: 280px;
+          .spredBtn {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .preventionContainer {
+    background-color: rgb(240, 245, 255);
+    text-align: center;
+    padding: 100px 0;
+
+    .spredContainerHead {
+      font-size: 18px;
+      line-height: 18px;
+      color: #2a81ea;
+      padding: 8px 0;
+    }
+    .spredContainerBig {
+      font-size: 40px;
+      line-height: 52px;
+      font-weight: bolder;
+      color: #50658e;
+    }
+    .spredContainerDes {
+      padding: 8px 180px;
+      font-size: 16px;
+      color: rgb(80, 80, 80);
+    }
+    .spredContainerCard {
+      background: transparent;
+      padding-top: 70px;
+      .spredCard {
+        padding: 20px 0;
+        border: none;
+        .symptomCardImg {
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+          box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .spredCradDetail {
+          padding: 0px !important;
+          .spredCradDetailHead {
+            text-align: center;
+            padding: 14px 0;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: bolder;
+            color: rgb(48, 48, 48);
+          }
+          .spredCradDetailDes {
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgb(80, 80, 80);
+          }
+        }
+      }
+      .infoIcon {
+        height: 100%;
+        width: 100%;
+      }
+      .askQueSymptemsContainer {
+        padding-top: 80px;
+        .askQueSymptemsIcon {
+          .infoIcon {
+            display: flex;
+            align-items: center;
+            font-size: 50px;
+            color: rgb(122, 175, 255);
+          }
+        }
+        .askQueSymptemsDes {
+          font-style: italic;
+          color: rgb(80, 80, 80);
+          font-size: 16px;
+          text-align: start;
+          padding-right: 60px;
+        }
+        .spredBtnContainer {
+          width: 280px;
+          .spredBtn {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .washContainer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .washBgImgContiner {
+      height: 540px;
+      .washBgImg {
+        height: 100%;
+        width: 100%;
+      }
+      .washDetailContainer {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 100px 0;
+        .washHead {
+          font-size: 30px;
+          line-height: 36px;
+          color: white;
+          font-weight: bolder;
+        }
+        .washSubHead {
+          font-size: 16px;
+          line-height: 24px;
+          color: rgba(255, 255, 255, 0.726);
+          font-weight: bolder;
+          padding: 10px 0;
+        }
+        .washCardContainer {
+          padding: 26px 0;
+          .washCard {
+            .washCardImg {
+              padding: 26px;
+              .CardImg {
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+              }
+            }
+            .washCardHead {
+              font-size: 18px;
+              line-height: 24px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .mainContainerHome {
+    .topContainer {
+      .upperMainRow {
+        .upperLeft {
+          .upperLeftHead {
+            display: flex;
+            flex-direction: column;
+            .upperLeftHeadCorona {
+              font-size: 64px;
+              line-height: 64px;
+              font-weight: bolder;
+            }
+            .upperLeftHeadCoronaRight {
+              padding: 8px 0;
+              display: flex;
+              .upperLeftHeadCoronaRightTop {
+                font-size: 30px;
+                line-height: 30px;
+              }
+              .upperLeftHeadCoronaRightBottom {
+                padding-left: 16px;
+                font-size: 30px;
+                line-height: 30px;
+              }
+            }
+          }
+          .upperLeftDes {
+            padding: 10px 0;
+            font-size: 16px;
+            color: rgb(83, 83, 83);
+          }
+          .upperLeftBtn {
+            padding: 10px 0;
+          }
+        }
+        .mainRightImg {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mainContainerHome {
+    .topContainer {
+      min-height: 90vh;
+      .upperMainRow {
+        .upperLeft {
+          .upperLeftHead {
+            display: flex;
+            flex-direction: column;
+            .upperLeftHeadCorona {
+              font-size: 64px;
+              line-height: 64px;
+              font-weight: bolder;
+            }
+            .upperLeftHeadCoronaRight {
+              padding: 8px 0;
+              display: flex;
+              .upperLeftHeadCoronaRightTop {
+                font-size: 30px;
+                line-height: 30px;
+              }
+              .upperLeftHeadCoronaRightBottom {
+                padding-left: 16px;
+                font-size: 30px;
+                line-height: 30px;
+              }
+            }
+          }
+          .upperLeftDes {
+            padding: 10px 0;
+            font-size: 16px;
+            color: rgb(83, 83, 83);
+          }
+          .upperLeftBtn {
+            padding: 10px 0;
+            .btnCol{
+              margin: 10px 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+        .mainRightImg {
+          margin-top: 20px;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    .chartContainer {
+      padding: 70px 0;
+      .spredContainerHead {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .spredContainerBig {
+        font-size: 23px;
+        line-height: 23px;
+      }
+      .chartBoxContainer {
+        padding: 70px 0 10px 0;
+        .chartBox {
+          padding: 0 0px;
+        }
+        .chartSideDes {
+          margin-top: 40px;
+          padding: 0 0px;
+          text-align: justify;
+          font-size: 16px;
+          color: rgb(83, 83, 83);
+          .chartSideDesBox {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .spredContainer {
+      text-align: center;
+      padding: 70px 0;
+
+      .spredContainerHead {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .spredContainerBig {
+        font-size: 21px;
+        line-height: 23px;
+        padding: 10px 0;
+      }
+      .spredContainerDes {
+        padding: 0px 0px;
+        font-size: 16px;
+      }
+      .spredContainerCard {
+        padding: 40px 0 0px 0;
+        .spredCard {
+          margin-bottom: 50px;
+          .spredCradDetail {
+            padding: 0px !important;
+            .spredCradDetailHead {
+              padding-bottom: 14px;
+              text-align: start;
+              font-size: 20px;
+              line-height: 24px;
+              font-weight: bolder;
+              color: #2a81ea;
+            }
+            .spredCradDetailDes {
+              text-align: start;
+              font-size: 16px;
+              line-height: 24px;
+            }
+          }
+        }
+        .spredBtnContainer {
+          padding-top: 30px;
+          width: 280px;
+          .spredBtn {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .washContainer {
+      .washBgImgContiner {
+        height: 840px;
+        .washDetailContainer {
+          padding: 70px 0;
+          .washHead {
+            font-size: 23px;
+            line-height: 23px;
+          }
+        }
+      }
+    }
+    .symptemsContainer {
+      padding: 70px 0;
+      .spredContainerHead {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .spredContainerBig {
+        font-size: 22px;
+        line-height: 21px;
+        padding: 10px 0px;
+      }
+      .spredContainerDes {
+        padding: 0px 0px;
+        font-size: 16px;
+        color: rgb(80, 80, 80);
+      }
+      .spredContainerCard {
+        .spredCard {
+          margin-bottom: 100px;
+          .spredCradDetail {
+            padding: 0px !important;
+            .spredCradDetailHead {
+              padding-bottom: 14px;
+              text-align: start;
+              font-size: 20px;
+              line-height: 24px;
+              font-weight: bolder;
+              color: #2a81ea;
+            }
+            .spredCradDetailDes {
+              text-align: start;
+              font-size: 16px;
+              line-height: 24px;
+            }
+          }
+        }
+        .askQueSymptemsContainer {
+          padding-top: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .askQueSymptemsIcon {
+            padding-bottom: 20px;
+            .infoIcon {
+              font-size: 50px;
+              color: rgb(122, 175, 255);
+            }
+          }
+          .askQueSymptemsDes {
+            font-style: italic;
+            text-align: center;
+            padding-right: 0px;
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    .preventionContainer {
+      padding: 70px 0;
+  
+      .spredContainerHead {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .spredContainerBig {
+        font-size: 23px;
+        line-height: 23px;
+        padding: 10px 0;
+      }
+      .spredContainerDes {
+        padding: 0px 0px;
+      }
+      .spredContainerCard {
+        padding-top: 40px;
+        .spredCard {
+          padding: 20px 0;
+          border: none;
+          .symptomCardImg {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.2);
+          }
+  
+          .spredCradDetail {
+            padding: 0px !important;
+            .spredCradDetailHead {
+              text-align: center;
+              padding: 14px 0;
+              font-size: 18px;
+              line-height: 24px;
+              font-weight: bolder;
+              color: rgb(48, 48, 48);
+            }
+            .spredCradDetailDes {
+              text-align: center;
+              font-size: 16px;
+              line-height: 24px;
+              color: rgb(80, 80, 80);
+            }
+          }
+        }
+        .infoIcon {
+          height: 100%;
+          width: 100%;
+        }
+        .askQueSymptemsContainer {
+          padding-top: 80px;
+          .askQueSymptemsIcon {
+            .infoIcon {
+              display: flex;
+              align-items: center;
+              font-size: 50px;
+              color: rgb(122, 175, 255);
+            }
+          }
+          .askQueSymptemsDes {
+            font-style: italic;
+            color: rgb(80, 80, 80);
+            font-size: 16px;
+            text-align: start;
+            padding-right: 60px;
+          }
+          .spredBtnContainer {
+            width: 280px;
+            .spredBtn {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+
+
+  }
+}

@@ -1,0 +1,127 @@
+.countryInA{
+    display: flex;
+    .countryFInA{
+        margin-right: 10px;
+        font-size: 22px;
+    }
+    .countryNInA{
+        display: flex;
+        align-items: center;
+    }
+}
+.mainContainerDashboard{
+    .dashboardMarky{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #1278f536;
+        marquee{
+            font-size: 16px;
+            line-height: 17px;
+            color: #1872df;
+            .markSub{
+                display: flex;
+                div{
+                    margin: 0 26px;
+                }
+            }
+        }
+    }
+    .stausCardConatainer{
+        padding: 60px 0;
+        background-color: rgb(240, 245, 255);
+        .mainHead{
+            padding-bottom: 40px;
+            text-align: center;
+            .mainHeadUp{
+                font-size: 18px;
+                line-height: 18px;
+                color: #2a81ea;
+            }
+            .mainHeadDown{
+                padding: 8px 0;
+                font-size: 40px;
+                line-height: 52px;
+                font-weight: bold;
+                color: #50658e;
+            }
+            .mainHeadDes{
+                font-size: 16px;
+                line-height: 20px;
+                color: #505050;
+                padding: 0 200px;
+            }
+        }
+    }
+    .countryTableContainer{
+        padding: 70px 0;
+        // background-color: rgb(240, 245, 255);
+        .mainHead{
+            padding-bottom: 40px;
+            text-align: center;
+            .mainHeadUp{
+                font-size: 18px;
+                line-height: 18px;
+                color: #2a81ea;
+            }
+            .mainHeadDown{
+                padding: 8px 0;
+                font-size: 40px;
+                line-height: 52px;
+                font-weight: bold;
+                color: #50658e;
+            }
+            .mainHeadDes{
+                font-size: 16px;
+                line-height: 20px;
+                color: #505050;
+                padding: 0 200px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .mainContainerDashboard{
+        .stausCardConatainer{
+            padding: 40px 0;
+            .mainHead{
+                padding-bottom: 30px;
+                .mainHeadUp{
+                    font-size: 16px;
+                    line-height: 16px;
+                }
+                .mainHeadDown{
+                    padding: 10px 0px;
+                    padding: 8px 0;
+                    font-size: 23px;
+                    line-height: 23px;
+                }
+                .mainHeadDes{
+                    font-size: 16px;
+                    line-height: 18px;
+                    padding: 0 10px;
+                }
+            }
+        }
+        .countryTableContainer{
+            padding: 40px 0;
+            .mainHead{
+                padding-bottom: 30px;
+                .mainHeadUp{
+                    font-size: 16px;
+                    line-height: 16px;
+                }
+                .mainHeadDown{
+                    padding: 8px 0;
+                    font-size: 23px;
+                    line-height: 23px;
+                }
+                .mainHeadDes{
+                    font-size: 16px;
+                    line-height: 18px;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}

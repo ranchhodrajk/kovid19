@@ -1,0 +1,8 @@
+.mainLayout{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.chlidContainer{
+    flex-grow: 1;
+}

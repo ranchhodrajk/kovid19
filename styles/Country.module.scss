@@ -1,0 +1,80 @@
+.mainContainerCountry {
+  .countryDetial {
+    padding: 50px 0;
+
+    .countryDetialFlag {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 44px;
+        width: 66px;
+      }
+    }
+    .countryDetialFlag {
+      padding: 0 0 36px 0;
+      font-size: 60px;
+      line-height: 60px;
+      color: #50658e;
+      font-weight: bolder;
+    }
+  }
+  .countryChartCointainer {
+    padding: 50px 0;
+    .countryChartBox{
+        .countryChartBoxHead{
+            padding-bottom: 60px;
+            text-align: center;
+            .countryChartBoxHeadTop{
+                font-size: 18px;
+                line-height: 18px;
+                color: #2a81ea;
+            }
+            .countryChartBoxHeadBot{
+                font-size: 40px;
+                font-weight: bolder;
+                line-height: 52px;
+                color:#50658e;
+                padding: 6px 0;
+            }
+            .countryChartBoxHeadDes{
+                font-size: 16px;
+                line-height: 20px;
+                color:#505050;
+                padding: 0 160px;
+            }
+        }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .mainContainerCountry {
+    .countryDetial {
+      padding: 30px 0;
+      .countryDetialFlag {
+        padding: 0 0 30px 0;
+        font-size: 50px;
+        line-height: 50px;
+        color: #50658e;
+        font-weight: bolder;
+      }
+    }
+    .countryChartCointainer {
+      .countryChartBox{
+        .countryChartBoxHead{
+          .countryChartBoxHeadTop{
+            font-size: 16px;
+            line-height: 16px;
+          }
+          .countryChartBoxHeadBot{
+            font-size: 36px;
+            line-height: 40px;
+          }
+          .countryChartBoxHeadDes{
+            padding: 0 0px;
+          }
+        }
+      }
+    }
+  }
+}
